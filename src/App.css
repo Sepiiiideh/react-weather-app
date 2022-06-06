@@ -1,0 +1,165 @@
+body {
+  font-family: Google Sans, arial, sans-serif;
+}
+.weather-app-wrapper {
+  max-width: 650px;
+  margin: 30px auto;
+}
+.weatherApp {
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
+}
+.weatherApp.night {
+  background: radial-gradient(
+    919px at 1.7% 6.1%,
+    rgb(41, 58, 76) 0%,
+    rgb(40, 171, 226) 100.2%
+  );
+}
+.weatherApp.day {
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
+}
+ul {
+  padding-left: 0;
+}
+li {
+  list-style: none;
+}
+.clearfix {
+  display: inline-block;
+  vertical-align: top;
+}
+.weather-Img {
+  display: inline-block;
+  height: 100px;
+  vertical-align: top;
+  width: 100px;
+}
+.degree {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+}
+.weather-Conditions {
+  display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  padding-left: 9px;
+  padding-top: 30px;
+}
+.weather-Conditions.day {
+  color: #70757a;
+}
+.weather-Conditions.night {
+  color: #e6ecf3;
+}
+.degree-Number {
+  font-size: 48px;
+  line-height: 60px;
+  vertical-align: top;
+}
+.degree-Number.day {
+  color: #202124;
+}
+.degree-Number.night {
+  color: #e5e9f7;
+}
+.degree-Metrics {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 6px;
+  padding-left: 6px;
+  vertical-align: top;
+}
+.degree-Metrics.day {
+  color: #202124;
+}
+.degree-Metrics.night {
+  color: #cdd0da;
+}
+.WeatherDesc {
+  text-align: right;
+  display: inline-block;
+  vertical-align: top;
+}
+.city {
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: 400;
+}
+.city.day {
+  color: #202124;
+}
+.city.night {
+  color: #fff;
+}
+.date,
+.condition {
+  font-size: 20px;
+  line-height: 24px;
+}
+.date.day,
+.condition.day {
+  color: #70757a;
+}
+.date.night,
+.condition.night {
+  color: #e2f7f7;
+}
+a {
+  text-decoration: none;
+}
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+  color: rgb(33, 33, 33);
+}
+.weather-forecast {
+  margin-top: 24px;
+  text-align: center;
+  color: black;
+}
+.forecast-img {
+  display: block;
+  margin: 0 auto;
+}
+.weather-forecast-date {
+  font-size: 18px;
+  opacity: 0.6;
+}
+.weather-forecast-date.day {
+  color: black;
+}
+.weather-forecast-date.night {
+  color: white;
+}
+.weather-forecast-temprature {
+  font-size: 18px;
+}
+.weather-forecast-temprature-min {
+  opacity: 0.6;
+}
+.weather-forecast-temprature-max.day {
+  color: black;
+}
+.weather-forecast-temprature-max.night {
+  color: white;
+}
+.weather-forecast-temprature-min.day {
+  color: black;
+}
+.weather-forecast-temprature-min.night {
+  color: white;
+}
+.footer {
+  font-size: 16px;
+}
