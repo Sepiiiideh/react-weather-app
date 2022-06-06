@@ -15,11 +15,11 @@ export default function WeatherInfo() {
             6
           </span>
           <div className="degree-Metrics">
-            <a id="celcius-link" className="active" href="#">
+            <a id="celcius-link" className="active" href="./">
               °C
             </a>
             |
-            <a id="farenhite-link" href="#">
+            <a id="farenhite-link" href="./">
               °F
             </a>
           </div>
